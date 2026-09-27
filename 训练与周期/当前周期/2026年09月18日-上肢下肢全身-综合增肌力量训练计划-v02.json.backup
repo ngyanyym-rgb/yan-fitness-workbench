@@ -1,0 +1,1721 @@
+{
+  "assumptions": [
+    "周固定排程為週五上肢、周日下肢、週三全身；W1為2026-09-18、09-20、09-23。",
+    "歷史重量只證明既往接觸，不作為當前工作重量。",
+    "可選第四日不計入必練頻率。"
+  ],
+  "cycle_links": [],
+  "equipment": {
+    "available": [
+      "槓鈴與深蹲架",
+      "啞鈴與訓練凳",
+      "繩索與常見固定器械",
+      "引體桿、藥球、跳箱"
+    ],
+    "location": "香港24/7商業健身房",
+    "minimum_increment": "現場確認最小增量",
+    "unavailable": []
+  },
+  "goals": {
+    "primary": "增肌並提升基礎力量",
+    "secondary": [
+      "改善姿態與傷病預防",
+      "提升運動表現與審美"
+    ],
+    "success_criteria": [
+      "每周完成3個必練日",
+      "建立無痛、可重復且可追溯的主項負荷"
+    ]
+  },
+  "knowledge_sources": [
+    {
+      "accessed_at": "2026-09-17T20:00:00+08:00",
+      "chapter_or_section": "資料、目標、條件與訓練內容",
+      "evidence_role": "current_user_state",
+      "local_path_or_url": "user_current_confirmation",
+      "rule_used": "按每周3個必練日和指定訓練內容制定，歷史負荷不作當前負荷。",
+      "source_title": "Yan 已確認建檔與計劃內容",
+      "source_type": "user_fact"
+    },
+    {
+      "accessed_at": "2026-09-17T20:00:00+08:00",
+      "chapter_or_section": "負荷與校准",
+      "evidence_role": "load_traceability",
+      "local_path_or_url": "references/plan-contract.md",
+      "rule_used": "所有未驗證負荷使用 calibration_required。",
+      "source_title": "Lzheng 計劃數據協議",
+      "source_type": "local_rule"
+    }
+  ],
+  "minimum_versions": [
+    {
+      "name": "30 分鐘",
+      "rule": "保留爆發/技術、主項和首個輔助動作"
+    },
+    {
+      "name": "20 分鐘",
+      "rule": "保留爆發/技術和兩個主項，各減少組數"
+    },
+    {
+      "name": "10 分鐘",
+      "rule": "熱身後完成第一力量主項2組"
+    },
+    {
+      "name": "狀態差版",
+      "rule": "各動作減少1組並降低負荷，至少保留4次餘力；異常則停止"
+    }
+  ],
+  "movement_coverage": [
+    {
+      "adequate": true,
+      "days": [
+        "上肢",
+        "全身"
+      ],
+      "evidence": "臥推、引體、划船、推舉",
+      "pattern": "推拉"
+    },
+    {
+      "adequate": true,
+      "days": [
+        "下肢",
+        "全身"
+      ],
+      "evidence": "後蹲、分腿蹲、RDL與硬拉",
+      "pattern": "蹲、單腿與髖鉸鏈"
+    },
+    {
+      "adequate": true,
+      "days": [
+        "下肢",
+        "全身"
+      ],
+      "evidence": "Pallof、死蟲與農夫行走",
+      "pattern": "核心"
+    }
+  ],
+  "movement_profile": [
+    {
+      "evidence": "歷史85kg×3—5；當前未驗證",
+      "movement": "槓鈴深蹲",
+      "role": "校准后主项",
+      "stage": "L1"
+    },
+    {
+      "evidence": "歷史55kg×3—5；當前未驗證",
+      "movement": "槓鈴臥推",
+      "role": "校准后主项",
+      "stage": "L1"
+    },
+    {
+      "admission_confirmed": true,
+      "admission_evidence": "用戶確認動作經驗且當前無傷病或疼痛",
+      "evidence": "歷史85kg×3—5；當前無痛但未驗證",
+      "movement": "傳統硬拉",
+      "role": "校准后主项",
+      "stage": "L1"
+    },
+    {
+      "evidence": "歷史+10kg×3—5；當前未驗證",
+      "movement": "負重引體",
+      "role": "校准后主项",
+      "stage": "L1"
+    },
+    {
+      "evidence": "歷史40kg×3—5；自學無教練",
+      "movement": "懸垂高翻",
+      "role": "只作技术练习，不稳改高翻拉",
+      "stage": "P0"
+    }
+  ],
+  "phases": [
+    {
+      "end_week": 3,
+      "label": "校准/積累",
+      "start_week": 1
+    },
+    {
+      "end_week": 4,
+      "label": "減量",
+      "start_week": 4
+    },
+    {
+      "end_week": 7,
+      "label": "強化",
+      "start_week": 5
+    },
+    {
+      "end_week": 8,
+      "label": "次極量評估",
+      "start_week": 8
+    }
+  ],
+  "plan": {
+    "athlete": "Yan",
+    "baseline": "W1—3校准/積累，W4減量，W5—7強化，W8次極量評估。",
+    "constraints": "所有當前負荷待校准；歷史公斤數不得作為當前處方。",
+    "frequency": "每周 3 练",
+    "goal": "增肌並提升基礎力量",
+    "metrics": [
+      {
+        "label": "週期",
+        "value": "8 周"
+      },
+      {
+        "label": "必練頻率",
+        "value": "3 練"
+      },
+      {
+        "label": "當前周",
+        "value": "W1"
+      }
+    ],
+    "objective_mode": "hypertrophy",
+    "subtitle": "增肌、力量、姿態、傷病預防、運動表現與審美",
+    "title": "Yan 上肢/下肢/全身綜合訓練計劃 v02",
+    "weeks": 8
+  },
+  "plan_meta": {
+    "frequency": "每周 3 练",
+    "generated_at": "2026-09-17T20:00:00+08:00",
+    "goal_mode": "hypertrophy",
+    "next_training_day_id": "upper",
+    "phase_goal": "8 周建立可追溯負荷並提升全身肌力與肌肥大",
+    "plan_id": "yan-20260918-v02",
+    "subject_id": "Yan",
+    "subject_mode": "personal",
+    "subtitle": "增肌、力量、姿態、傷病預防、運動表現與審美",
+    "timezone": "Asia/Hong_Kong",
+    "title": "Yan 上肢/下肢/全身綜合訓練計劃 v02",
+    "weeks": 8
+  },
+  "profile_snapshot": {
+    "confirmed": [
+      "男性，22歲，174cm，58kg",
+      "每周3個必練日，每次90分鐘（不含熱身）",
+      "無疾病、用藥、傷病或疼痛",
+      "香港24/7商業健身房",
+      "睡眠6—8小時；偶爾打籃球"
+    ],
+    "generated_at": "2026-09-17T20:00:00+08:00",
+    "inferred": [
+      "有基礎槓鈴經驗，但當前工作重量均未驗證"
+    ],
+    "overall_stage": "L1",
+    "readiness": "full",
+    "snapshot_id": "yan-20260917T200000+0800",
+    "unknown": [
+      "所有動作當前可重復工作重量",
+      "近8周實際訓練量"
+    ]
+  },
+  "progression_rules": [
+    {
+      "action": "下次增加最小負荷；否則保持並補足重復",
+      "scope": "W1—3 校准/積累",
+      "when": "動作無痛穩定、達到次數上限並留約2次餘力"
+    },
+    {
+      "action": "組數減少40%—50%，保留至少4次餘力",
+      "scope": "W4 減量",
+      "when": "進入第4周"
+    },
+    {
+      "action": "主項在規定次數內漸進，輔助繼續雙重漸進",
+      "scope": "W5—7 強化",
+      "when": "負荷已驗證且恢復正常"
+    },
+    {
+      "action": "只做次極量評估，不做極限測試",
+      "scope": "W8 次極量評估",
+      "when": "無痛且恢復正常"
+    }
+  ],
+  "review_checkpoints": [
+    {
+      "collect": "校准負荷、次數、餘力、動作穩定性和恢復",
+      "decision": "確認W2負荷或保持/回退",
+      "timing": "W1末"
+    },
+    {
+      "collect": "完成率、疼痛、睡眠與疲勞",
+      "decision": "確認是否進入強化",
+      "timing": "W4末"
+    },
+    {
+      "collect": "次極量表現、完成率、餘力、動作穩定性與恢復",
+      "decision": "AI確認反饋後生成下一階段計劃",
+      "timing": "W8末"
+    }
+  ],
+  "safety_status": {
+    "limitations": [
+      "高翻為自學且無教練，只作低強度技術練習；不穩時改高翻拉"
+    ],
+    "status": "clear",
+    "stop_signals": [
+      "胸痛、暈厥、異常氣短",
+      "銳痛、麻木、放射痛或持續加重症狀"
+    ]
+  },
+  "schedule": [
+    {
+      "day": "09-18",
+      "exercises": [
+        {
+          "load_status": "calibration_required",
+          "name": "藥球胸前推擲",
+          "priority": "main",
+          "sets": "4×3；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "槓鈴臥推",
+          "priority": "main",
+          "sets": "4×4—6；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "45 kg",
+          "calibration_notes": "45kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "負重引體向上",
+          "priority": "main",
+          "sets": "4×4—6；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "自重",
+          "calibration_notes": "自重可作工作負荷"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "上斜啞鈴臥推",
+          "priority": "key",
+          "sets": "3×8—10；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "胸托划船或坐姿划船",
+          "priority": "key",
+          "sets": "3×8—12；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "側平舉",
+          "priority": "key",
+          "sets": "3×12—20；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "肱三頭肌下壓",
+          "priority": "key",
+          "sets": "3×10—15；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "啞鈴彎舉",
+          "priority": "key",
+          "sets": "3×10—15；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "肩袖外旋或面拉",
+          "priority": "key",
+          "sets": "2×12—15；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "輕重量",
+          "calibration_notes": "未詳細記錄"
+        }
+      ],
+      "label": "W1 upper",
+      "role": "W1 校准/积累",
+      "theme": "上肢",
+      "title": "上肢"
+    },
+    {
+      "day": "09-20",
+      "exercises": [
+        {
+          "load_status": "calibration_required",
+          "name": "垂直跳或箱跳",
+          "priority": "main",
+          "sets": "4×3；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "槓鈴後蹲",
+          "priority": "main",
+          "sets": "4×4—6；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "60 kg",
+          "calibration_notes": "60kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "羅馬尼亞硬拉",
+          "priority": "main",
+          "sets": "3×6—8；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "60 kg",
+          "calibration_notes": "60kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "保加利亞分腿蹲",
+          "priority": "key",
+          "sets": "3×每側 8—10；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "15 kg×2",
+          "calibration_notes": "15kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "腿彎舉",
+          "priority": "key",
+          "sets": "3×10—15；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "27.5 kg",
+          "calibration_notes": "末組達RPE 9-10，下次降低"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "哥本哈根支撐",
+          "priority": "key",
+          "sets": "2×每側 20—30 秒；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "提踵",
+          "priority": "key",
+          "sets": "3×10—15；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "Pallof 抗旋轉",
+          "priority": "key",
+          "sets": "3×每側 8—12；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "死蟲",
+          "priority": "key",
+          "sets": "3×每側 8—12；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        }
+      ],
+      "label": "W1 lower",
+      "role": "W1 校准/积累",
+      "theme": "下肢",
+      "title": "下肢"
+    },
+    {
+      "day": "09-23",
+      "exercises": [
+        {
+          "load_status": "observed_load",
+          "name": "懸垂高翻技術或高翻拉",
+          "priority": "main",
+          "sets": "5×2；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "45 kg",
+          "calibration_notes": "45kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "傳統硬拉",
+          "priority": "main",
+          "sets": "3×3—5；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "70 kg",
+          "calibration_notes": "70kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "站姿推舉",
+          "priority": "main",
+          "sets": "3×5—8；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "32.5 kg",
+          "calibration_notes": "35kg第3組達RPE 9-10，下次降回32.5kg"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "前蹲或腿舉",
+          "priority": "key",
+          "sets": "3×8—10；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "單臂啞鈴划船或高位下拉",
+          "priority": "key",
+          "sets": "3×8—12；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "52.5 kg",
+          "calibration_notes": "52.5kg可作工作負荷"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "雙槓臂屈伸或器械推胸",
+          "priority": "key",
+          "sets": "3×8—12；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "彈力帶輔助",
+          "calibration_notes": "維持相同彈力帶"
+        },
+        {
+          "load_status": "calibration_required",
+          "name": "反向飛鳥",
+          "priority": "key",
+          "sets": "3×12—20；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力"
+        },
+        {
+          "load_status": "observed_load",
+          "name": "農夫行走",
+          "priority": "key",
+          "sets": "3×20—30 米；待現場校准",
+          "target": "RPE 7—8；約留 2—3 次餘力",
+          "observed_load": "未執行",
+          "calibration_notes": "時間不足"
+        }
+      ],
+      "label": "W1 full",
+      "role": "W1 校准/积累",
+      "theme": "全身",
+      "title": "全身"
+    }
+  ],
+  "short_interruption_rules": {
+    "miss_one": "不補課、不加倍，按下一排定訓練日繼續。",
+    "miss_two": "下一次使用30分鐘版或狀態差版，再恢復正常順序。",
+    "route_to_return_skill": "停训达到7天、连续漏练3次、疾病后恢复或条件变化时调用 lzheng-training-return。"
+  },
+  "tracking_targets": [
+    {
+      "id": "training_completion",
+      "kind": "training_completion",
+      "label": "每周3次必練完成",
+      "next_action": "每次訓練後記錄完成情況。",
+      "source": "training_review",
+      "status": "confirmed"
+    },
+    {
+      "id": "planned_sets",
+      "kind": "planned_sets",
+      "label": "重點肌群計劃組數",
+      "next_action": "每周核對計劃量與實際完成量。",
+      "source": "plan_contract",
+      "status": "confirmed"
+    },
+    {
+      "id": "progression_log",
+      "kind": "progression_log",
+      "label": "重點動作重量、次數與餘力",
+      "next_action": "W1逐項校准並記錄。",
+      "source": "training_review",
+      "status": "needs_baseline"
+    }
+  ],
+  "training_days": [
+    {
+      "duration": "約 90 分鐘（不含熱身）",
+      "exercises": [
+        {
+          "alternatives": [
+            "爆發掌上壓"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-throw",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "胸肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱三头肌"
+            }
+          ],
+          "name": "藥球胸前推擲",
+          "pattern": "水平爆發推",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "3",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 4,
+            "sets": "4"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "啞鈴臥推"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-bench",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "45 kg",
+            "calibration_notes": "45kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "胸肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肩前束"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱三头肌"
+            }
+          ],
+          "name": "槓鈴臥推",
+          "pattern": "水平推",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "4—6",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 4,
+            "sets": "4"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "高位下拉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-pullup",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "自重",
+            "calibration_notes": "自重可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "背阔肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱二头肌"
+            }
+          ],
+          "name": "負重引體向上",
+          "pattern": "垂直拉",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "4—6",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 4,
+            "sets": "4"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "上斜器械推胸"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-incline",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "胸肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肩前束"
+            }
+          ],
+          "name": "上斜啞鈴臥推",
+          "pattern": "上斜推",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "8—10",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "單臂啞鈴划船"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-row",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "上背/中背"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "背阔肌"
+            }
+          ],
+          "name": "胸托划船或坐姿划船",
+          "pattern": "水平拉",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "8—12",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "繩索側平舉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-lateral",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肩中束"
+            }
+          ],
+          "name": "側平舉",
+          "pattern": "肩外展",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "12—20",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "仰臥臂屈伸"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-triceps",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肱三头肌"
+            }
+          ],
+          "name": "肱三頭肌下壓",
+          "pattern": "肘伸",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "10—15",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "繩索彎舉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-biceps",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肱二头肌"
+            }
+          ],
+          "name": "啞鈴彎舉",
+          "pattern": "肘屈",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "10—15",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "彈力帶外旋"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "u-cuff",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "輕重量",
+            "calibration_notes": "未詳細記錄"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肩后束"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            }
+          ],
+          "name": "肩袖外旋或面拉",
+          "pattern": "肩外旋",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "12—15",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 2,
+            "sets": "2"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        }
+      ],
+      "id": "upper",
+      "minimum_versions": {
+        "minutes_10": {
+          "exercise_ids": [
+            "u-bench"
+          ],
+          "note": "熱身後只做第一力量主項2組，不追重量。"
+        },
+        "minutes_20": {
+          "exercise_ids": [
+            "u-throw",
+            "u-bench",
+            "u-pullup"
+          ],
+          "note": "保留爆發/技術和主項，各做2組。"
+        },
+        "minutes_30": {
+          "exercise_ids": [
+            "u-throw",
+            "u-bench",
+            "u-pullup",
+            "u-incline"
+          ],
+          "note": "保留主線，輔助動作各做2組。"
+        }
+      },
+      "role": "增肌、力量、姿态与运动表现",
+      "theme": "上肢主線",
+      "title": "上肢"
+    },
+    {
+      "duration": "約 90 分鐘（不含熱身）",
+      "exercises": [
+        {
+          "alternatives": [
+            "低箱跳"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-jump",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "股四头肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "臀部"
+            }
+          ],
+          "name": "垂直跳或箱跳",
+          "pattern": "垂直爆發",
+          "pattern_group": "蹲",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "3",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 4,
+            "sets": "4"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "哈克深蹲"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-squat",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "60 kg",
+            "calibration_notes": "60kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "股四头肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "臀部"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "核心"
+            }
+          ],
+          "name": "槓鈴後蹲",
+          "pattern": "膝主導",
+          "pattern_group": "蹲",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "4—6",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 4,
+            "sets": "4"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "啞鈴羅馬尼亞硬拉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-rdl",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "60 kg",
+            "calibration_notes": "60kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "腘绳肌"
+            },
+            {
+              "coefficient": 1,
+              "muscle_group": "臀部"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "下背/竖脊肌"
+            }
+          ],
+          "name": "羅馬尼亞硬拉",
+          "pattern": "髖主導",
+          "pattern_group": "髋铰链",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "6—8",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "反向箭步蹲"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-bss",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "15 kg×2",
+            "calibration_notes": "15kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "股四头肌"
+            },
+            {
+              "coefficient": 1,
+              "muscle_group": "臀部"
+            }
+          ],
+          "name": "保加利亞分腿蹲",
+          "pattern": "單腿膝主導",
+          "pattern_group": "单腿",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "每側 8—10",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "滑墊腿彎舉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-curl",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "27.5 kg",
+            "calibration_notes": "末組達RPE 9-10，下次降低"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "腘绳肌"
+            }
+          ],
+          "name": "腿彎舉",
+          "pattern": "膝屈",
+          "pattern_group": "髋铰链",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "10—15",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "短槓桿哥本哈根"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-copenhagen",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "核心"
+            }
+          ],
+          "name": "哥本哈根支撐",
+          "pattern": "髖內收穩定",
+          "pattern_group": "核心",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "每側 20—30 秒",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 2,
+            "sets": "2"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "腿舉機提踵"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-calf",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "小腿"
+            }
+          ],
+          "name": "提踵",
+          "pattern": "踝跖屈",
+          "pattern_group": "单腿",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "10—15",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "彈力帶 Pallof"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-pallof",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "核心"
+            }
+          ],
+          "name": "Pallof 抗旋轉",
+          "pattern": "抗旋轉",
+          "pattern_group": "核心",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "每側 8—12",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "鳥狗"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "l-deadbug",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "核心"
+            }
+          ],
+          "name": "死蟲",
+          "pattern": "抗伸展",
+          "pattern_group": "核心",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "每側 8—12",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        }
+      ],
+      "id": "lower",
+      "minimum_versions": {
+        "minutes_10": {
+          "exercise_ids": [
+            "l-squat"
+          ],
+          "note": "熱身後只做第一力量主項2組，不追重量。"
+        },
+        "minutes_20": {
+          "exercise_ids": [
+            "l-jump",
+            "l-squat",
+            "l-rdl"
+          ],
+          "note": "保留爆發/技術和主項，各做2組。"
+        },
+        "minutes_30": {
+          "exercise_ids": [
+            "l-jump",
+            "l-squat",
+            "l-rdl",
+            "l-bss"
+          ],
+          "note": "保留主線，輔助動作各做2組。"
+        }
+      },
+      "role": "增肌、力量、姿态与运动表现",
+      "theme": "下肢主線",
+      "title": "下肢"
+    },
+    {
+      "duration": "約 90 分鐘（不含熱身）",
+      "exercises": [
+        {
+          "alternatives": [
+            "高翻拉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-clean",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "45 kg",
+            "calibration_notes": "45kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "臀部"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "腘绳肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            }
+          ],
+          "name": "懸垂高翻技術或高翻拉",
+          "pattern": "爆發髖伸",
+          "pattern_group": "髋铰链",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "2",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 5,
+            "sets": "5"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "admission_confirmed": true,
+          "admission_evidence": "用戶確認歷史傳統硬拉 85kg×3—5 且當前無傷病或疼痛；當前負荷仍需重新校准。",
+          "alternatives": [
+            "陷阱槓硬拉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-deadlift",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "70 kg",
+            "calibration_notes": "70kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "臀部"
+            },
+            {
+              "coefficient": 1,
+              "muscle_group": "腘绳肌"
+            },
+            {
+              "coefficient": 1,
+              "muscle_group": "下背/竖脊肌"
+            }
+          ],
+          "name": "傳統硬拉",
+          "pattern": "髖主導",
+          "pattern_group": "髋铰链",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "3—5",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "main",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "坐姿啞鈴推舉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-ohp",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "32.5 kg",
+            "calibration_notes": "35kg第3組達RPE 9-10，下次降回32.5kg"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肩前束"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱三头肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "核心"
+            }
+          ],
+          "name": "站姿推舉",
+          "pattern": "垂直推",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "5—8",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "腿舉"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-front",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "股四头肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "臀部"
+            }
+          ],
+          "name": "前蹲或腿舉",
+          "pattern": "膝主導",
+          "pattern_group": "蹲",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "8—10",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "坐姿划船"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-row",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "52.5 kg",
+            "calibration_notes": "52.5kg可作工作負荷"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "背阔肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱二头肌"
+            }
+          ],
+          "name": "單臂啞鈴划船或高位下拉",
+          "pattern": "水平或垂直拉",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "8—12",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "器械推胸"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-press",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "彈力帶輔助",
+            "calibration_notes": "維持相同彈力帶"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "胸肌"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "肱三头肌"
+            }
+          ],
+          "name": "雙槓臂屈伸或器械推胸",
+          "pattern": "水平推",
+          "pattern_group": "推",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "8—12",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "俯身飛鳥"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-rear",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "calibration_required"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "肩后束"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            }
+          ],
+          "name": "反向飛鳥",
+          "pattern": "肩水平外展",
+          "pattern_group": "拉",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "12—20",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        },
+        {
+          "alternatives": [
+            "單側提重行走"
+          ],
+          "equipment": "按動作選擇現場器械",
+          "id": "f-carry",
+          "load": {
+            "decision_rule": "目標次數內動作穩定、無痛並保留約 3 次餘力時，記錄當日工作重量；疼痛或明顯變形時立即停止並降級。",
+            "starting_instruction": "從空桿、最輕檔或明顯輕於歷史表現的負荷開始遞增試組；歷史重量不作為當前工作重量。",
+            "status": "observed_load",
+            "observed_value": "未執行",
+            "calibration_notes": "時間不足"
+          },
+          "modality": "商業健身房器械/自由重量",
+          "muscle_contributions": [
+            {
+              "coefficient": 1,
+              "muscle_group": "核心"
+            },
+            {
+              "coefficient": 0.5,
+              "muscle_group": "上背/中背"
+            }
+          ],
+          "name": "農夫行走",
+          "pattern": "負重行走",
+          "pattern_group": "核心",
+          "prescription": {
+            "intensity": "RPE 7—8；約留 2—3 次餘力",
+            "reps": "20—30 米",
+            "rest": "主項 2—3 分鐘；輔助 60—120 秒",
+            "set_count": 3,
+            "sets": "3"
+          },
+          "priority": "key",
+          "purpose": "按計劃發展增肌、力量與動作質量",
+          "selection_reason": "符合用戶指定訓練內容、目標和商業健身房條件。",
+          "technique_checks": [
+            "動作全程可控",
+            "無痛並保留規定餘力"
+          ]
+        }
+      ],
+      "id": "full",
+      "minimum_versions": {
+        "minutes_10": {
+          "exercise_ids": [
+            "f-deadlift"
+          ],
+          "note": "熱身後只做第一力量主項2組，不追重量。"
+        },
+        "minutes_20": {
+          "exercise_ids": [
+            "f-clean",
+            "f-deadlift",
+            "f-ohp"
+          ],
+          "note": "保留爆發/技術和主項，各做2組。"
+        },
+        "minutes_30": {
+          "exercise_ids": [
+            "f-clean",
+            "f-deadlift",
+            "f-ohp",
+            "f-front"
+          ],
+          "note": "保留主線，輔助動作各做2組。"
+        }
+      },
+      "role": "增肌、力量、姿态与运动表现",
+      "theme": "全身主線",
+      "title": "全身"
+    }
+  ],
+  "weekly_schedule": [
+    {
+      "day_id": "full",
+      "day_index": 3,
+      "label": "週三",
+      "theme": "全身"
+    },
+    {
+      "day_id": "upper",
+      "day_index": 5,
+      "label": "週五",
+      "theme": "上肢"
+    },
+    {
+      "day_id": "lower",
+      "day_index": 7,
+      "label": "周日",
+      "theme": "下肢"
+    }
+  ]
+}

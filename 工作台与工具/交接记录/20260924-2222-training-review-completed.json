@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "source_skill": "lzheng-strength-training-review",
+  "target_skill": "lzheng-fitness-workbench-builder",
+  "user_system_id": "local",
+  "event_type": "training_review_completed",
+  "created_at": "2026-09-24T22:22:52+08:00",
+  "artifacts": [
+    {
+      "type": "review",
+      "path": "训练复盘与状态/训练复盘/2026-09-24-W1-全身-lzheng-training-review.md"
+    },
+    {
+      "type": "baseline",
+      "path": "训练复盘与状态/当前执行基准/当前训练执行基准.md"
+    }
+  ],
+  "requires": {
+    "refresh_workbench": true,
+    "merge_into_current_plan": false
+  },
+  "warnings": [
+    "肩推第3組達RPE 9–10且掉次數；正式v02計劃未修改，下一次全身降回32.5 kg。",
+    "晨重2026-09-24為57.45 kg，較9月20日下降0.95 kg；若W2持續≤57.5 kg需提高每日熱量。",
+    "W1三日課已全部完成校準；W2各動作以W1校準結果為基準漸進。"
+  ],
+  "delivery": {
+    "status": "formal_refreshed",
+    "processed_at": "2026-09-24T22:25:30+08:00",
+    "detail": "正式工作台已重新构建且通过 checker；未准备发布副本、未部署、未验证线上。",
+    "evidence": {
+      "receipt_scope": "external-local",
+      "receipt_file": "20260924-222530-563640-workbench-refresh.json",
+      "receipt_sha256": "33fb74461d21654df8b6a77f1034e61cee932444bdd9e030feb7f54a0b7f2aa1",
+      "formal_sha256": "8c66110956b40cd6bd745920f0797397f8a9d24e3dbce96f6c119dd8fb4030c2",
+      "formal_data_sha256": "9bfdf17e3a05da4e4b6e5bad3e34977adb7131c1e9c15e3fd42d43ad7a940589",
+      "formal_checker": "PASS"
+    }
+  }
+}

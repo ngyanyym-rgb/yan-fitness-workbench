@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "created_at": "2026-09-24T22:35:20+08:00",
+  "mode": "video",
+  "html": "健身工作台.html",
+  "assets": [
+    "界面素材/workbench-background.jpg",
+    "界面素材/workbench-background.mp4",
+    "界面素材/workbench-background.png"
+  ]
+}

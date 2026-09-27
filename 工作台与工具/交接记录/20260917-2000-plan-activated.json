@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "source_skill": "lzheng-fitness-plan",
+  "target_skill": "lzheng-fitness-workbench-builder",
+  "user_system_id": "local",
+  "event_type": "plan_activated",
+  "created_at": "2026-09-17T20:00:00+08:00",
+  "artifacts": [
+    {
+      "type": "plan",
+      "path": "训练与周期/当前周期/2026年09月18日-上肢下肢全身-综合增肌力量训练计划-v02.json"
+    },
+    {
+      "type": "plan_html",
+      "path": "训练与周期/当前周期/2026年09月18日-上肢下肢全身-综合增肌力量训练计划-v02.html"
+    },
+    {
+      "type": "profile",
+      "path": "训练复盘与状态/状态档案/2026-09-17-2000-lzheng-training-profile.md"
+    },
+    {
+      "type": "review",
+      "path": "训练复盘与状态/训练复盘/2026-09-17-W1-v02计划激活记录.md"
+    }
+  ],
+  "requires": {
+    "refresh_workbench": true,
+    "merge_into_current_plan": false
+  },
+  "warnings": [
+    "所有当前训练负荷均待现场校准；不得沿用历史公斤数。"
+  ],
+  "delivery": {
+    "status": "formal_refreshed",
+    "processed_at": "2026-09-17T22:38:50+08:00",
+    "detail": "正式工作台已重新构建且通过 checker；未准备发布副本、未部署、未验证线上。",
+    "evidence": {
+      "receipt_scope": "external-local",
+      "receipt_file": "20260917-223850-058287-workbench-refresh.json",
+      "receipt_sha256": "25aff3db89dfbb633766fdcc75dea0a73fa11b2dbeae481c4a5801ad12a6bea5",
+      "formal_sha256": "38a2c4cb351f034717a0a04ad4bcf0f87de9429c1ad7e60a837ef5e5735714e9",
+      "formal_data_sha256": "46335915713bf1dddd058d62ad2a3cf57d5db090ae51bd9d3973f85daa65ec18",
+      "formal_checker": "PASS"
+    }
+  }
+}

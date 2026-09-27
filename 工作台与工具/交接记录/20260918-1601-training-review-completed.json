@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "source_skill": "lzheng-strength-training-review",
+  "target_skill": "lzheng-fitness-workbench-builder",
+  "user_system_id": "local",
+  "event_type": "training_review_completed",
+  "created_at": "2026-09-18T16:01:00+08:00",
+  "artifacts": [
+    {
+      "type": "review",
+      "path": "训练复盘与状态/训练复盘/2026-09-18-W1-上肢-lzheng-training-review.md"
+    },
+    {
+      "type": "baseline",
+      "path": "训练复盘与状态/当前执行基准/当前训练执行基准.md"
+    }
+  ],
+  "requires": {
+    "refresh_workbench": true,
+    "merge_into_current_plan": false
+  },
+  "warnings": [
+    "本次多個動作後段達RPE 9至10；正式v02計劃未修改，下一次上肢只採條件式滾動處方。",
+    "藥球實際為6 kg向地板快速連推4組6次，並非原處方的胸前向前推擲。"
+  ],
+  "delivery": {
+    "status": "formal_refreshed",
+    "processed_at": "2026-09-18T16:11:31+08:00",
+    "detail": "正式工作台已重新构建且通过 checker；未准备发布副本、未部署、未验证线上。",
+    "evidence": {
+      "receipt_scope": "external-local",
+      "receipt_file": "20260918-161131-436603-workbench-refresh.json",
+      "receipt_sha256": "6e737870546063b67e9c22006199d1a7c44f036b99c078445128542b3f629cfa",
+      "formal_sha256": "4badfe9b52fd13f7ad9b92ca53ae74627eb99e1afeae9b95ed1f67dbfe4c6664",
+      "formal_data_sha256": "9bcd1917818297a7f14185904cf9ed0c65b9f46dbc57150a2c8e036a0d4c3afc",
+      "formal_checker": "PASS"
+    }
+  }
+}

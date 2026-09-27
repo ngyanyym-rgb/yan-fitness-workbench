@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "source_skill": "lzheng-nutrition-system",
+  "target_skill": "lzheng-fitness-workbench-builder",
+  "user_system_id": "local",
+  "event_type": "nutrition_contract_updated",
+  "created_at": "2026-09-18T17:45:14+08:00",
+  "artifacts": [
+    {
+      "type": "nutrition_contract",
+      "path": "工作台与工具/饮食工作台/nutrition-contract-v02.json"
+    },
+    {
+      "type": "nutrition_guide",
+      "path": "工作台与工具/饮食工作台/nutrition-plan-v02.md"
+    }
+  ],
+  "requires": {
+    "refresh_workbench": true,
+    "merge_into_current_plan": false
+  },
+  "warnings": [
+    "2600 kcal是14天趨勢校準前的起點，不是實測維持熱量。",
+    "普通牛奶可能引致腹瀉只屬待觀察耐受性，並非已診斷過敏。",
+    "工作台按整數宏量換算可能顯示2598 kcal，屬四捨五入差異。"
+  ],
+  "delivery": {
+    "status": "formal_refreshed",
+    "processed_at": "2026-09-18T17:47:03+08:00",
+    "detail": "正式工作台已重新构建且通过 checker；未准备发布副本、未部署、未验证线上。",
+    "evidence": {
+      "receipt_scope": "external-local",
+      "receipt_file": "20260918-174702-850067-workbench-refresh.json",
+      "receipt_sha256": "f2d2ec844fddfd42b8f95762eceb4defce5c23990e38fede40bfdf7c96826340",
+      "formal_sha256": "b3a76bd3e1e1c089c1f21ccfdef8551604d1bc386c3d72ab6fccf31bacbc8fdd",
+      "formal_data_sha256": "85d1d48e74324e1871c95b9a19ac7fcac7063ff1e6ffb4133d69dea68ee4547f",
+      "formal_checker": "PASS"
+    }
+  }
+}
